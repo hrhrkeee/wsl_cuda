@@ -2,8 +2,8 @@ version: '3.8'
 
 services:
   wsl-cuda:
-    image: ubuntu22-cuda118:latest
-    container_name: ubuntu22-cuda118-torch231
+    image: template:latest
+    container_name: template
     build:
       context: .
       dockerfile: Dockerfile
