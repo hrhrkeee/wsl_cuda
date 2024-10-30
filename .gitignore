@@ -4,3 +4,4 @@
 !.gitkeep
 
 *.pt
+*.onnx
