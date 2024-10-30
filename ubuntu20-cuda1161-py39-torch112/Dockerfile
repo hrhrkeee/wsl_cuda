@@ -55,7 +55,7 @@ RUN apt -y install libopencv-dev
 RUN pip install opencv-python
 
 # その他のライブラリをインストール
-RUN pip install ultralytics ipykernel
+RUN pip install ultralytics ipykernel flask flask_socketio
 
 # PythonとCUDAが正常にインストールされていることを確認するためのコマンドを実行
 RUN python --version && nvcc --version
