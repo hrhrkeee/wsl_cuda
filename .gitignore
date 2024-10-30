@@ -1,0 +1,5 @@
+*.pt
+*.jpg
+
+!template/**/*.pt
+!template/**/*.jpg

@@ -7,11 +7,11 @@ ENV DEBIAN_FRONTEND=noninteractive
 # 必要なパッケージをインストール
 RUN apt-get update && apt-get install -y \
     wget \
-    # build-essential \
-    # curl \
-    # ca-certificates \
-    # libssl-dev \
-    # libffi-dev \
+    build-essential \
+    curl \
+    ca-certificates \
+    libssl-dev \
+    libffi-dev \
     git \
     && rm -rf /var/lib/apt/lists/*
 
